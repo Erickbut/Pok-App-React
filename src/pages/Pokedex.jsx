@@ -5,7 +5,7 @@ import CardPoke from '../components/pokedex/CardPoke'
 import InputSearch from '../components/pokedex/InputSearch'
 import Pagination from '../components/pokedex/Pagination'
 import SelectByType from '../components/pokedex/SelectByType'
-import  '../components/pokedex/styles/letter-header.css'
+/*import  '../components/pokedex/styles/letter-header.css'*/
 
 
 const Pokedex = () => {
