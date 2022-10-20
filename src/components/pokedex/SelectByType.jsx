@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import './styles/inputSearch-Allpoke.css'
+import './Styles/inputSearch-Allpoke.css'
 
 
 const SelectByType = ({setTypeSelected, setPage }) => {

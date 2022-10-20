@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import './styles/inputSearch-Allpoke.css'
+import './Styles/inputSearch-Allpoke.css'
 
 const InputSearch = () => {
 
