@@ -1,0 +1,30 @@
+.pagination{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pagination_container{
+  display: flex;
+  gap: 5px;
+}
+
+.pagination_page,
+.pagination_prev,
+.pagination_next{
+  cursor: pointer;
+  width: 35px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination_active{
+  background-color: var(--color-red);
+  color: white;
+  border-radius: 5px;
+}

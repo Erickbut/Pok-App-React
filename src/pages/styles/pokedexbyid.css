@@ -1,0 +1,29 @@
+.card-poke_spriteID{
+  width: 36%;
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 30px;
+}
+.card-poke_nameID{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.card-poke_types-containerID{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.card-poke_stats-containerID{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px 5px;
+  justify-items: center;
+  padding: 0 5px 35px;
+  margin-top: 36%;
+  margin-bottom: 20px;
+}

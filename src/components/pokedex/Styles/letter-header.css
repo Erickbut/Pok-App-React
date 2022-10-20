@@ -1,0 +1,11 @@
+.black-text{
+  color: black;
+  display: flex;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.red-text{
+  display: flex;
+  color:var(--color-red) ;
+  margin-left: 10px;
+}
