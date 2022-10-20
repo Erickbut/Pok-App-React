@@ -48,10 +48,10 @@ const Pokedex = () => {
     <section className='section-pokedex' >
       <header className='header-poke'>
         <img className='pokedex_img' src="/images/home/pokedex.png" alt="" />
-        <p className='black-text'>
+        <div className='black-text'>
             <span className='red-text'>{'Welcome '} {userName} {'😄'}</span>
-            <p>, here you can find your favorite pokémon❗</p>
-        </p>
+            <div>, here you can find your favorite pokémon❗</div>
+        </div>
       </header>
       <aside className='aside-poke'>
         <InputSearch />
